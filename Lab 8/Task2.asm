@@ -22,8 +22,8 @@ fibonacci:
     loop fibonacci     ; Repeat until 6 numbers are generated
 
     
-    mov ax, 4C00h     ; Return control to DOS
-    int 21h           ; Interrupt to exit the program
+    mov ah, 4ch       ; Return control to DOS
+    int 21h          
 
 main endp
 end main
